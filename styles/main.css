@@ -1979,19 +1979,39 @@ code::-webkit-scrollbar-thumb:hover {
           background-color: #ffffff!important;
         }
          
-      @import url('https://fonts.googleapis.com/css?family= Nunito+Sans');
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@100&display=swap');
 .gt-post-content p {
-  font-family: "Noto Serif TC";
+  font-family: Menlo,"Noto Serif TC", serif;
+  font-weight:100;
   line-height: 1.75;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 18px;
-  letter-spacing: 1px;
-  text-align:justify;
+  letter-spacing: 1.12px;
+  /*text-align:justify;*/
 }
 .site-footer {
   width:100%;
   font-size: 12px;
   text-align: center;
   padding: 24px;
+}
+.gt-a-link {
+          color: #222222!important;
+          position: relative!important;
+          background: linear-gradient(180deg, transparent 0%, RGBA(255,255,255,0) 0)!important;
+
+ }
+.gt-a-link:hover {
+          color: #2EA9DF!important;
+          position: relative!important;
+        }
+.search-input {
+          color: #222222!important;
+          background-color: #f0f0f0!important;
+        }
+.navbar .navbar-brand .user-avatar {
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
 }
     
