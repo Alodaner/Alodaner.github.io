@@ -2014,4 +2014,24 @@ code::-webkit-scrollbar-thumb:hover {
   height: 50px;
   border-radius: 50%;
 }
+.gt-post-content blockquote {
+          background: RGBA(46,169,223,0.2)!important;
+          border-color: #1E88A8!important;
+        }
+.next-post .next {
+  margin-bottom: 20px;
+  padding-bottom:5px;
+  font-size: 14px;
+  width: 100%;
+  border-bottom: 1px double #ccc!important;
+}
+.next-post {
+   width: 1000px;
+  text-align: right;
+  padding: 0px 32px 16px 32px;
+}
+@media (max-width: 992px) {
+  .next-post {
+    width: 100%;
+  }
     
