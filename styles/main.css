@@ -1890,11 +1890,11 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-bg-content-color-first {
-          background: #222222!important;
+          background: #545454!important;
         }
         
         .gt-bg-content-color-second {
-          background: #495057!important;
+          background: #a5a5a5!important;
         }
         
         .gt-bg-accent-color-first {
@@ -1914,11 +1914,11 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-c-content-color-first {
-          color: #222222!important;
+          color: #545454!important;
         }
         
         .gt-c-content-color-second {
-          color: #495057!important;
+          color: #a5a5a5!important;
         }
         
         .gt-c-accent-color-first {
@@ -1930,7 +1930,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         body {
-          color: #222222!important;
+          color: #545454!important;
         }
         
         a {
@@ -1939,20 +1939,20 @@ code::-webkit-scrollbar-thumb:hover {
         
         .post-content h1 {
           display: inline-block;
-          color: #222222!important;
+          color: #545454!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #222222!important;
+          color: #545454!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #222222!important;
+          color: #545454!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
         }
@@ -1971,22 +1971,21 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         input::placeholder {
-          color: #495057!important;
+          color: #a5a5a5!important;
         }
         
         .search-input {
-          color: #222222!important;
+          color: #545454!important;
           background-color: #ffffff!important;
         }
          
-      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@100&display=swap');
-.gt-post-content p {
-  font-family: Menlo,"Noto Serif TC", serif;
-  font-weight:100;
+      .gt-post-content p {
+  font-family: Menlo;
+  font-weight:400; 
   line-height: 1.75;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 18px;
-  letter-spacing: 1.12px;
+  letter-spacing: 1px;
   /*text-align:justify;*/
 }
 .site-footer {
