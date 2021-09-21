@@ -1890,7 +1890,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-bg-content-color-first {
-          background: #525252!important;
+          background: rgba(0,0,0,0.84)!important;
         }
         
         .gt-bg-content-color-second {
@@ -1914,7 +1914,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-c-content-color-first {
-          color: #525252!important;
+          color: rgba(0,0,0,0.84)!important;
         }
         
         .gt-c-content-color-second {
@@ -1930,7 +1930,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         body {
-          color: #525252!important;
+          color: rgba(0,0,0,0.84)!important;
         }
         
         a {
@@ -1939,20 +1939,20 @@ code::-webkit-scrollbar-thumb:hover {
         
         .post-content h1 {
           display: inline-block;
-          color: #525252!important;
+          color: rgba(0,0,0,0.84)!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #525252!important;
+          color: rgba(0,0,0,0.84)!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #525252!important;
+          color: rgba(0,0,0,0.84)!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
         }
@@ -1975,12 +1975,12 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .search-input {
-          color: #525252!important;
+          color: rgba(0,0,0,0.84)!important;
           background-color: #ffffff!important;
         }
          
       .gt-post-content p {
-  font-family: sans-serif,Menlo;
+  font-family: PingFang SC;
   font-weight:300; 
   line-height: 32px;
   margin-bottom: 20px;
