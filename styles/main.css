@@ -1890,7 +1890,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-bg-content-color-first {
-          background: #222222!important;
+          background: #525252!important;
         }
         
         .gt-bg-content-color-second {
@@ -1914,7 +1914,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-c-content-color-first {
-          color: #222222!important;
+          color: #525252!important;
         }
         
         .gt-c-content-color-second {
@@ -1930,7 +1930,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         body {
-          color: #222222!important;
+          color: #525252!important;
         }
         
         a {
@@ -1939,20 +1939,20 @@ code::-webkit-scrollbar-thumb:hover {
         
         .post-content h1 {
           display: inline-block;
-          color: #222222!important;
+          color: #525252!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #222222!important;
+          color: #525252!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #222222!important;
+          color: #525252!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
         }
@@ -1975,17 +1975,17 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .search-input {
-          color: #222222!important;
+          color: #525252!important;
           background-color: #ffffff!important;
         }
          
       .gt-post-content p {
-  font-family: Menlo,serif;
-  font-weight:400; 
-  /*line-height: 1.75;*/
+  font-family: sans-serif,Menlo;
+  font-weight:300; 
+  line-height: 32px;
   margin-bottom: 20px;
   font-size: 18px;
-  letter-spacing: 1px;
+  letter-spacing: 1.1px;
   /*text-align:justify;*/
 }
 .site-footer {
