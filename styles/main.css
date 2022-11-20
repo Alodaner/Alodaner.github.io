@@ -1980,12 +1980,12 @@ code::-webkit-scrollbar-thumb:hover {
         }
          
       .gt-post-content p {
-  font-family: PingFang SC;
+  font-family: SF Pro SC;
   font-weight:300; 
-  line-height: 32px;
-  margin-bottom: 20px;
-  font-size: 18px;
-  letter-spacing: 1.1px;
+  line-height: 25px;
+  margin-bottom: 32px;
+  font-size: 17px;
+  letter-spacing: 0.5px;
   /*text-align:justify;*/
 }
 .site-footer {
