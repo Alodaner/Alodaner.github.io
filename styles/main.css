@@ -1979,7 +1979,19 @@ code::-webkit-scrollbar-thumb:hover {
           background-color: #ffffff!important;
         }
          
-      
+      * {
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
 .navbar .navbar-brand img.user-avatar {
     width: 50px;
     height: 50px;
@@ -2015,6 +2027,11 @@ code::-webkit-scrollbar-thumb:hover {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+@media (max-width: 479px) {
+  .post-container .post-detail {
+        padding: 0 30px;
+  }
 
 .post-list-container .post-inner {
     width: 100%;
@@ -2078,18 +2095,6 @@ code::-webkit-scrollbar-thumb:hover {
   text-align: right;
   padding: 0px 32px 16px 32px;
 }
-@media (max-width: 992px) {
-  .next-post {
-    width: 100%;
-  }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-* {
-    box-sizing: border-box;
-}
+
+
     
