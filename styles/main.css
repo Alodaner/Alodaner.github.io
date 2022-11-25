@@ -1979,17 +1979,12 @@ code::-webkit-scrollbar-thumb:hover {
           background-color: #ffffff!important;
         }
          
-      * {
-    box-sizing: border-box;
+      
+.navbar .navbar-brand img.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
 .navbar {
     padding: 0 50px 0 50px;
     position: relative;
@@ -2000,7 +1995,7 @@ p {
 }
 
 .navbar-expand-lg {
-    border-bottom: 1px solid var(--B40);
+    border-bottom: 1px solid #d6d6d6;
     --bg-color: #f4f4f4;
     background: var(--bg-color);
     position: fixed;
@@ -2016,10 +2011,20 @@ p {
     width: 100%;
     max-width: 664px;
     padding: 0 0;
-    margin: 8em auto;
+    margin: 6em auto;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.post-list-container .post-inner {
+    width: 100%;
+    max-width: 664px;
+    padding: 0 0;
+    margin: 4em auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .gt-post-content p {
   font-family:system-ui ;
   line-height: 27px;
@@ -2034,7 +2039,9 @@ p {
   width:100%;
   font-size: 12px;
   text-align: center;
-  padding: 24px;
+  padding: 24px 0 24px 0;
+  background: #f4f4f4;
+  border-top: 1px solid #e5e5e5;
 }
 .gt-a-link {
           color: #222222!important;
@@ -2075,4 +2082,14 @@ p {
   .next-post {
     width: 100%;
   }
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+* {
+    box-sizing: border-box;
+}
     
