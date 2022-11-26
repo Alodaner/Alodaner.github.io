@@ -2007,7 +2007,7 @@ body {
     justify-content: center;
 }
 .navbar .navbar-nav .nav-item a {
-    font-size: 1;
+    font-size: 14px;
     flex-shrink: 0;
     color: #655e5e !important;
     --font-color_active: #292525;
