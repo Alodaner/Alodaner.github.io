@@ -2072,8 +2072,8 @@ body {
 }
 
 
-/* 宽度 664  */
-.post-container , .post-container .post-detail{
+/* 宽度 664 .post-container ,  */
+ .post-container .post-detail{
     max-width: 664px;
     margin: 0 auto;
     -webkit-box-sizing: border-box;
@@ -2169,14 +2169,25 @@ body {
 
 .post-list-container .post-inner .post .post-left .post-abstract {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 16px;
     line-height: 1.1;
+    font-size: 14px;
     letter-spacing:1;
 
 }
+.post-list-container .post-inner .post .post-left .post-info {
+    margin-top: 28px;
+}
+
+
 .pagination-container {
     padding: 0;
     align-self: center;
+}
+
+.site-footer {
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
 }
 
 .site-footer,.slogan{
