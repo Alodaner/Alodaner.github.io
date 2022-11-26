@@ -1979,7 +1979,62 @@ code::-webkit-scrollbar-thumb:hover {
           background-color: #ffffff!important;
         }
          
-      /* 段落文字样式  */
+      html {   
+    line-height: normal;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    letter-spacing: 0;
+}
+
+/** Top 菜单**/
+.navbar {
+    padding: 0 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e4e4e4;
+    border-bottom: 1px solid #d3d3d3;
+}
+@media (max-width: 992px) {
+  .navbar {
+    padding: 5px 30px !important;
+  }
+}
+.navbar .navbar-nav {
+    justify-content: center;
+}
+.navbar .navbar-nav .nav-item a {
+    font-size: 1;
+    flex-shrink: 0;
+    color: #655e5e !important;
+    --font-color_active: #292525;
+    --bg-color_hover: #fff;
+    --border-color_youzan: #292525;
+}
+
+.navbar .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    font-size: 0;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar .navbar-brand .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+}
+
+/* 段落文字样式  */
 .gt-post-content p {
     margin: 0 0 20px 0;
     line-height: 30px;
