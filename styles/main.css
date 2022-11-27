@@ -1890,19 +1890,19 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-bg-content-color-first {
-          background: #0492e6!important;
+          background: #292525!important;
         }
         
         .gt-bg-content-color-second {
-          background: #a5a5a5!important;
+          background: #8e8787!important;
         }
         
         .gt-bg-accent-color-first {
-          background: #DD9933!important;
+          background: #0486e4!important;
         }
         
         .gt-bg-accent-color-second {
-          background: RGBA(221,153,51,0.2)!important;
+          background: RGBA(4,134,228,0.2)!important;
         }
         
         .gt-c-theme-color-first {
@@ -1914,68 +1914,68 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-c-content-color-first {
-          color: #0492e6!important;
+          color: #292525!important;
         }
         
         .gt-c-content-color-second {
-          color: #a5a5a5!important;
+          color: #8e8787!important;
         }
         
         .gt-c-accent-color-first {
-          color: #DD9933!important;
+          color: #0486e4!important;
         }
         
         .gt-c-accent-color-second {
-          color: RGBA(221,153,51,0.2)!important;
+          color: RGBA(4,134,228,0.2)!important;
         }
         
         body {
-          color: #0492e6!important;
+          color: #292525!important;
         }
         
         a {
-          color: #DD9933!important;
+          color: #0486e4!important;
         }
         
         .post-content h1 {
           display: inline-block;
-          color: #0492e6!important;
+          color: #292525!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(4,134,228,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #0492e6!important;
+          color: #292525!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(4,134,228,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #0492e6!important;
+          color: #292525!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(221,153,51,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(4,134,228,0.4) 0)!important;
         }
         
         .gt-post-content a {
-          color: #DD9933!important;
+          color: #0486e4!important;
         }
         
         .gt-post-content blockquote {
-          background: RGBA(221,153,51,0.2)!important;
-          border-color: #DD9933!important;
+          background: RGBA(4,134,228,0.2)!important;
+          border-color: #0486e4!important;
         }
         
         .gt-post-content code {
-          background: RGBA(221,153,51,0.2)!important;
+          background: RGBA(4,134,228,0.2)!important;
         }
         
         input::placeholder {
-          color: #a5a5a5!important;
+          color: #8e8787!important;
         }
         
         .search-input {
-          color: #0492e6!important;
+          color: #292525!important;
           background-color: #ffffff!important;
         }
          
@@ -1990,6 +1990,7 @@ body {
 /** Top 菜单**/
 .navbar {
     padding: 0 30px;
+    padding-left: 40px;
     position: fixed;
     display: flex;
     flex-wrap: wrap;
@@ -2032,9 +2033,9 @@ body {
 }
 
 .navbar .navbar-brand .user-avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
 }
 #gridea-search-form .search-input {
     position: relative;
@@ -2053,6 +2054,10 @@ body {
     border-bottom: 2px #495057;
     transition: border-color 0.2s;
 }
+#gridea-search-form .fas {
+    color: #0590e5 !important;
+}
+
 .gt-c-content-color-first {
     top: 8px !important;
     left: 16px !important;
@@ -2061,16 +2066,22 @@ body {
 .post-list-container {
     background-color: #f4f4f4;
 }
+.post-container .post-detail .post-info .post-time {
+    color: #bbb !important;
+}
 
 /* 段落文字样式  */
 .gt-post-content p {
-    margin: 0 0 20px 0;
-    line-height: 30px;
+    margin: 0 0 30px 0;
+    line-height: 26px;
     font-size: 16px;
     letter-spacing: 0px;
     color: #4c4e4d!important;
 }
-
+.gt-post-content blockquote {
+    background: RGBA(4,134,230,0.3)!important;
+    border-color: #0486e6!important;
+}
 
 /* 宽度 664 .post-container ,  */
  .post-container .post-detail{
@@ -2165,6 +2176,7 @@ body {
     font-size: 18px;
     font-weight: 600;
     letter-spacing:0;
+    color: #292525 !important;
 }
 
 .post-list-container .post-inner .post .post-left .post-abstract {
@@ -2173,12 +2185,14 @@ body {
     line-height: 1.1;
     font-size: 14px;
     letter-spacing:1;
-
 }
 .post-list-container .post-inner .post .post-left .post-info {
     margin-top: 28px;
 }
-
+.post-list-container .post-inner .post .post-left .post-info .post-time {
+    color: #bbb !important;
+    font-size: 12px;
+}
 
 .pagination-container {
     padding: 0;
@@ -2189,7 +2203,9 @@ body {
     width: 100%;
     border-top: 1px solid #e4e4e4;
 }
-
+.site-footer div:last-child {
+    display:none;
+}
 .site-footer,.slogan{
     color: #8e8787 !important;
 }
@@ -2206,4 +2222,70 @@ body {
 .site-footer .footer-info {
     padding-bottom: 0;
 }
+
+
+div#vcomments {
+    padding-bottom: 2em !important;
+}
+.vwrap {
+    padding: 0 10px !important;
+}
+.vwrap .vedit {
+    padding-top: 0 !important;
+}
+ .veditor {
+    min-height: 6em !important;
+}
+.vinput {
+    padding: 5px 5px !important;
+}
+.txt-right {
+    display: none;
+}
+
+
+/****************** CSS 动效 ***********************/
+/**********
+.loader {
+  position: relative;
+  display: block;
+  width: 44px;
+  height: 44px;
+  font-size: 15px;
+  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+}
+
+.loader::before,
+.loader::after {
+  content: '';
+  position: absolute;
+  display: block;
+}
+
+.loader_bubble::before {
+  top: 10px;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.loader_bubble {
+  background: linear-gradient(180deg, rgb(0, 91, 228) 10%, rgb(75, 127, 240) 100%);
+  border-radius: 50%;
+  transform-origin: 50% 50%;
+  animation: bubble7234 1200ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+}
+
+@keyframes bubble7234 {
+  0% {
+    transform: translate3d(0,0,0) rotate(0);
+  }
+
+  100% {
+    transform: translate3d(0,0,0) rotate(360deg);
+  }
+}
+*******************/
     
