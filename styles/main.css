@@ -2120,8 +2120,7 @@ body {
     border-radius: 0;
     flex-basis: auto;
     background-size: 115%;
-    transition: background-size 0.2s ease-out, width: 0.2s ease-out;
-;
+    transition: background-size 0.2s ease-out, width 0.2s ease-out;
 }
 
 /************媒体查询************/
@@ -2182,7 +2181,7 @@ body {
     transform: none;
 }
 .post-list-container .post-inner .post:hover  .post-left {
-    padding-left:44px;
+    padding-left:40px;
 }
 .post-list-container .post-inner .post:hover  .post-feature-image {
         background-size: 113%;
@@ -2201,7 +2200,13 @@ body {
     margin-top: 16px;
     line-height: 1.1;
     font-size: 14px;
-    letter-spacing:1;
+    letter-spacing:1px;
+}
+.post-list-container .post-inner .post .post-left .post-abstract p{
+    line-height: 1;
+    font-size: 14px;
+    letter-spacing:1px;
+    color: #8e8787 !important;
 }
 .post-list-container .post-inner .post .post-left .post-info {
     margin-top: 28px;
@@ -2240,7 +2245,6 @@ body {
     padding-bottom: 0;
 }
 
-
 div#vcomments {
     padding-bottom: 2em !important;
 }
@@ -2260,8 +2264,14 @@ div#vcomments {
     display: none;
 }
 
-/*******搜索页面******/
+/*******搜索页面未搜索到******/
 .no-result {
+    margin-top: 0 !important;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+/*******搜索页面搜索中******/
+.searching  {
     margin-top: 0 !important;
     padding-top: 150px;
     padding-bottom: 100px;
