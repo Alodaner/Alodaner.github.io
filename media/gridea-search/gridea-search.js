@@ -180,13 +180,13 @@
         for (var i = 0; i < searchedContent.matches.length; i++) {
             if (searchedContent.matches[i].key === 'content') {//如果匹配到文章内容，截取关键字
                 var indices = searchedContent.matches[i].indices[0];
-                var beforeKeyword = searchedPostContent.substring(indices[0] - 20, indices[0]);//关键字前10字
+                var beforeKeyword = searchedPostContent.substring(indices[0] - 16, indices[0]);//关键字前10字
                 var keyword = searchedPostContent.substring(indices[0], indices[1] + 1);//关键字
-                var afterKeyword = searchedPostContent.substring(indices[1] + 1, indices[1] + 120);//关键字后70字
+                var afterKeyword = searchedPostContent.substring(indices[1] + 1, indices[1] + 24);//关键字后70字
                 preview = beforeKeyword + '<span class="searched-keyword">'
                     + keyword + '</span>' + afterKeyword;
             } else {//没有匹配到文章内容，则是标题，直接截取前80字
-                preview = searchedPostContent.substring(0, 80);
+                preview = searchedPostContent.substring(0, 40);
             }
         }
         return preview + ' ...';
