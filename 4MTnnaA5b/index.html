@@ -6,7 +6,7 @@
 
 <title>生活 | </title>
 
-<link rel="shortcut icon" href="https://Alodaner.github.io/favicon.ico?v=1669525612314">
+<link rel="shortcut icon" href="https://Alodaner.github.io/favicon.ico?v=1669537472429">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://Alodaner.github.io/styles/main.css">
@@ -85,7 +85,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1669525612314"
+            <form id="gridea-search-form" style="position: relative" data-update="1669537472429"
                 action="/search/">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -126,7 +126,7 @@
                     </div>
                     <div class="post-info">
                         <time class="post-time gt-c-content-color-first">
-                            发布于 · 2022.11.19丨Sat ·
+                            发布于 · 11/19 . 2022丨Sat ·
                         </time>
                         
                             <a href="https://Alodaner.github.io/4MTnnaA5b/" class="post-tag">
@@ -183,6 +183,25 @@
         <footer >
 <font styl="font-size: 10px;">© 自由之路丨2021~2023丨GitHub.io </font>
 </footer>
+<script>
+function keywordHighlight(searchedContent) {
+        var searchedPostContent = searchedContent.item.content;//搜索结果内容预览
+        var preview = '... ';
+        for (var i = 0; i < searchedContent.matches.length; i++) {
+            if (searchedContent.matches[i].key === 'content') {//如果匹配到文章内容，截取关键字
+                var indices = searchedContent.matches[i].indices[0];
+                var beforeKeyword = searchedPostContent.substring(indices[0] - 16, indices[0]);//关键字前10字
+                var keyword = searchedPostContent.substring(indices[0], indices[1] + 1);//关键字
+                var afterKeyword = searchedPostContent.substring(indices[1] + 1, indices[1] + 24);//关键字后70字
+                preview = beforeKeyword + '<span class="searched-keyword">'
+                    + keyword + '</span>' + afterKeyword;
+            } else {//没有匹配到文章内容，则是标题，直接截取前80字
+                preview = searchedPostContent.substring(0, 40);
+            }
+        }
+        return preview + ' ...';
+    }
+</script>
     </div>
     <div>
         Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
