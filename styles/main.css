@@ -2140,6 +2140,10 @@ body {
     .post-list-container .post-inner .post .post-feature-image {
         width:0;
     }
+    .post-list-container .post-inner .post:hover .post-feature-image {
+        background-size: 0 !important; 
+        width: 0 !important; 
+    }
 }
 @media (max-width: 768px) {
     .navbar {
@@ -2157,6 +2161,10 @@ body {
     .post-list-container .post-inner .post .post-feature-image {
         width:0;
     }
+    .post-list-container .post-inner .post:hover .post-feature-image {
+        background-size: 0 !important; 
+        width: 0 !important; 
+    }
 }
 @media screen and (max-width: 479px) {
     .navbar {
@@ -2173,6 +2181,10 @@ body {
     }
     .post-list-container .post-inner .post .post-feature-image {
         width:0;
+    }
+    .post-list-container .post-inner .post:hover .post-feature-image {
+        background-size: 0 !important; 
+        width: 0 !important; 
     }
 }
 
