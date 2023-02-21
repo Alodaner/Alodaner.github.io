@@ -2037,6 +2037,10 @@ body {
     height: 30px;
     border-radius: 15px;
 }
+.navbar .navbar-brand .site-name {
+         display: none;
+}
+
 #gridea-search-form .search-input {
     position: relative;
     left: -2px;

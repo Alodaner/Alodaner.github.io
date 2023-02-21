@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://Alodaner.github.io</id>
     <title>Center</title>
-    <updated>2023-02-21T05:35:03.632Z</updated>
+    <updated>2023-02-21T13:57:21.613Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://Alodaner.github.io"/>
+    <link rel="self" href="https://Alodaner.github.io/atom.xml"/>
     <subtitle>仗剑走天涯
 &lt;div class=&quot;loader loader_bubble&quot;&gt;&lt;/div&gt;
 &lt;style&gt;
@@ -20,13 +20,13 @@
         }
     }
 &lt;/style&gt;</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://Alodaner.github.io/images/avatar.png</logo>
+    <icon>https://Alodaner.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, Center</rights>
     <entry>
         <title type="html"><![CDATA[快，即是慢。 少，即是多。]]></title>
-        <id>http://localhost:4000/S3LnoDGy9/</id>
-        <link href="http://localhost:4000/S3LnoDGy9/">
+        <id>https://Alodaner.github.io/S3LnoDGy9/</id>
+        <link href="https://Alodaner.github.io/S3LnoDGy9/">
         </link>
         <updated>2023-02-14T03:51:21.000Z</updated>
         <summary type="html"><![CDATA[<p>走过多少崎岖人生漫漫路，才能体会到简单而深奥的「 <strong>大道至简</strong> 」。</p>
@@ -36,8 +36,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[这场“大疫”终于告一段落了]]></title>
-        <id>http://localhost:4000/iBeNeBRY1/</id>
-        <link href="http://localhost:4000/iBeNeBRY1/">
+        <id>https://Alodaner.github.io/iBeNeBRY1/</id>
+        <link href="https://Alodaner.github.io/iBeNeBRY1/">
         </link>
         <updated>2022-12-07T13:13:38.000Z</updated>
         <summary type="html"><![CDATA[<p>COVID-19 在某种意义上算是终于结束了，像极了一场无疾而终的闹剧一样草草的结束。</p>
@@ -47,8 +47,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[由潮州 Tesla 事故想到的]]></title>
-        <id>http://localhost:4000/unQAnQBhG/</id>
-        <link href="http://localhost:4000/unQAnQBhG/">
+        <id>https://Alodaner.github.io/unQAnQBhG/</id>
+        <link href="https://Alodaner.github.io/unQAnQBhG/">
         </link>
         <updated>2022-11-19T08:40:27.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>對於大眾來說一部分事情的真相是根本無法觸探的。</strong></p>
@@ -58,8 +58,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[80 歲時用牙開瓶蓋]]></title>
-        <id>http://localhost:4000/Pz3vFBw7w/</id>
-        <link href="http://localhost:4000/Pz3vFBw7w/">
+        <id>https://Alodaner.github.io/Pz3vFBw7w/</id>
+        <link href="https://Alodaner.github.io/Pz3vFBw7w/">
         </link>
         <updated>2021-10-24T07:43:35.000Z</updated>
         <summary type="html"><![CDATA[<p>一次偶然體會到了牙疼的痛苦。從此才認識到牙齒對於一個人的意義。</p>
@@ -69,8 +69,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[增駕摩托車 D 本]]></title>
-        <id>http://localhost:4000/hSAI-ltQ4/</id>
-        <link href="http://localhost:4000/hSAI-ltQ4/">
+        <id>https://Alodaner.github.io/hSAI-ltQ4/</id>
+        <link href="https://Alodaner.github.io/hSAI-ltQ4/">
         </link>
         <updated>2021-09-29T01:30:57.000Z</updated>
         <summary type="html"><![CDATA[<p>這個城市在很長一段時間裏都在禁摩。這幾年因為一些事件，</p>
@@ -80,8 +80,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[終於把煙癮戒斷了]]></title>
-        <id>http://localhost:4000/I3xp4J4gp/</id>
-        <link href="http://localhost:4000/I3xp4J4gp/">
+        <id>https://Alodaner.github.io/I3xp4J4gp/</id>
+        <link href="https://Alodaner.github.io/I3xp4J4gp/">
         </link>
         <updated>2021-09-20T10:04:05.000Z</updated>
         <summary type="html"><![CDATA[<p>從小就學著早熟的孩子吸煙，模仿姿態、體會上癮的感覺。</p>
@@ -91,8 +91,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[關於：是否開始了的開始]]></title>
-        <id>http://localhost:4000/Z8DI-J-Vj/</id>
-        <link href="http://localhost:4000/Z8DI-J-Vj/">
+        <id>https://Alodaner.github.io/Z8DI-J-Vj/</id>
+        <link href="https://Alodaner.github.io/Z8DI-J-Vj/">
         </link>
         <updated>2021-09-18T03:14:28.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
