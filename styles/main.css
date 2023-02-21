@@ -2038,7 +2038,7 @@ body {
     border-radius: 15px;
 }
 .navbar .navbar-brand .site-name {
-         display: none;
+         display: none !important;
 }
 
 #gridea-search-form .search-input {
