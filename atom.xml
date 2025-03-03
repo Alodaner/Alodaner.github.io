@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Alodaner.github.io</id>
     <title>Center</title>
-    <updated>2024-03-28T09:10:55.843Z</updated>
+    <updated>2025-03-03T08:54:30.182Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Alodaner.github.io"/>
     <link rel="self" href="https://Alodaner.github.io/atom.xml"/>
@@ -22,7 +22,7 @@
 &lt;/style&gt;</subtitle>
     <logo>https://Alodaner.github.io/images/avatar.png</logo>
     <icon>https://Alodaner.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2024, Center</rights>
+    <rights>All rights reserved 2025, Center</rights>
     <entry>
         <title type="html"><![CDATA[回顾]]></title>
         <id>https://Alodaner.github.io/ewQ_uI9XG/</id>
