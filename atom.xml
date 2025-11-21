@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Alodaner.github.io</id>
     <title>麥貳爺</title>
-    <updated>2025-06-22T00:33:08.114Z</updated>
+    <updated>2025-11-21T09:13:23.804Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Alodaner.github.io"/>
     <link rel="self" href="https://Alodaner.github.io/atom.xml"/>
@@ -23,6 +23,13 @@
     <logo>https://Alodaner.github.io/images/avatar.png</logo>
     <icon>https://Alodaner.github.io/favicon.ico</icon>
     <rights>All rights reserved 2025, 麥貳爺</rights>
+    <entry>
+        <title type="html"><![CDATA[下午]]></title>
+        <id>https://Alodaner.github.io/T3aNzS4guW/</id>
+        <link href="https://Alodaner.github.io/T3aNzS4guW/">
+        </link>
+        <updated>2025-11-21T08:53:35.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ 不曾拥有]]></title>
         <id>https://Alodaner.github.io/5GL4VGf366/</id>
@@ -128,17 +135,6 @@
         <summary type="html"><![CDATA[<p>一次偶然體會到了牙疼的痛苦。從此才認識到牙齒對於一個人的意義。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>一次偶然體會到了牙疼的痛苦。從此才認識到牙齒對於一個人的意義。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[增駕摩托車 D 本]]></title>
-        <id>https://Alodaner.github.io/hSAI-ltQ4/</id>
-        <link href="https://Alodaner.github.io/hSAI-ltQ4/">
-        </link>
-        <updated>2021-09-29T01:30:57.000Z</updated>
-        <summary type="html"><![CDATA[<p>這個城市在很長一段時間裏都在禁摩。這幾年因為一些事件，</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>這個城市在很長一段時間裏都在禁摩。這幾年因為一些事件，</p>
 ]]></content>
     </entry>
 </feed>
