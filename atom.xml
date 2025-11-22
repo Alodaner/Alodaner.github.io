@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://Alodaner.github.io</id>
+    <id>http://localhost:4000</id>
     <title>麥貳爺</title>
-    <updated>2025-11-21T09:16:17.945Z</updated>
+    <updated>2025-11-22T08:08:46.612Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://Alodaner.github.io"/>
-    <link rel="self" href="https://Alodaner.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>仗剑走天涯
 &lt;div class=&quot;loader loader_bubble&quot;&gt;&lt;/div&gt;
 &lt;style&gt;
@@ -20,27 +20,31 @@
         }
     }
 &lt;/style&gt;</subtitle>
-    <logo>https://Alodaner.github.io/images/avatar.png</logo>
-    <icon>https://Alodaner.github.io/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2025, 麥貳爺</rights>
     <entry>
         <title type="html"><![CDATA[下午]]></title>
-        <id>https://Alodaner.github.io/T3aNzS4guW/</id>
-        <link href="https://Alodaner.github.io/T3aNzS4guW/">
+        <id>http://localhost:4000/T3aNzS4guW/</id>
+        <link href="http://localhost:4000/T3aNzS4guW/">
         </link>
         <updated>2025-11-21T08:53:35.000Z</updated>
+        <summary type="html"><![CDATA[<p>「每个人只能陪你走一段路，迟早是要分开的。」这是贾樟柯导演的山河故人里的一句台词。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>「每个人只能陪你走一段路，迟早是要分开的。」这是贾樟柯导演的山河故人里的一句台词。</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[ 不曾拥有]]></title>
-        <id>https://Alodaner.github.io/5GL4VGf366/</id>
-        <link href="https://Alodaner.github.io/5GL4VGf366/">
+        <id>http://localhost:4000/5GL4VGf366/</id>
+        <link href="http://localhost:4000/5GL4VGf366/">
         </link>
         <updated>2025-03-03T08:54:49.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[回顾]]></title>
-        <id>https://Alodaner.github.io/ewQ_uI9XG/</id>
-        <link href="https://Alodaner.github.io/ewQ_uI9XG/">
+        <id>http://localhost:4000/ewQ_uI9XG/</id>
+        <link href="http://localhost:4000/ewQ_uI9XG/">
         </link>
         <updated>2024-01-01T12:33:17.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -54,8 +58,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[无题]]></title>
-        <id>https://Alodaner.github.io/YJJGvtMRC/</id>
-        <link href="https://Alodaner.github.io/YJJGvtMRC/">
+        <id>http://localhost:4000/YJJGvtMRC/</id>
+        <link href="http://localhost:4000/YJJGvtMRC/">
         </link>
         <updated>2023-11-10T01:02:05.000Z</updated>
         <summary type="html"><![CDATA[<p>让自己快乐的人不在了，那个可以无忧无虑快乐的自己也不在了。</p>
@@ -65,8 +69,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[指鹿為馬，願問群臣]]></title>
-        <id>https://Alodaner.github.io/NuPrdTdWq/</id>
-        <link href="https://Alodaner.github.io/NuPrdTdWq/">
+        <id>http://localhost:4000/NuPrdTdWq/</id>
+        <link href="http://localhost:4000/NuPrdTdWq/">
         </link>
         <updated>2023-06-06T06:07:02.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -80,8 +84,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[ 知止不殆，可以长久]]></title>
-        <id>https://Alodaner.github.io/1xlKzgP7H/</id>
-        <link href="https://Alodaner.github.io/1xlKzgP7H/">
+        <id>http://localhost:4000/1xlKzgP7H/</id>
+        <link href="http://localhost:4000/1xlKzgP7H/">
         </link>
         <updated>2023-02-22T01:57:22.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -95,8 +99,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[快，即是慢。 少，即是多。]]></title>
-        <id>https://Alodaner.github.io/S3LnoDGy9/</id>
-        <link href="https://Alodaner.github.io/S3LnoDGy9/">
+        <id>http://localhost:4000/S3LnoDGy9/</id>
+        <link href="http://localhost:4000/S3LnoDGy9/">
         </link>
         <updated>2023-02-14T03:51:21.000Z</updated>
         <summary type="html"><![CDATA[<p>走过多少崎岖人生漫漫路，才能体会到简单而深奥的「 <strong>大道至简</strong> 」。</p>
@@ -106,8 +110,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[這場「大疫」終於告一段落了]]></title>
-        <id>https://Alodaner.github.io/iBeNeBRY1/</id>
-        <link href="https://Alodaner.github.io/iBeNeBRY1/">
+        <id>http://localhost:4000/iBeNeBRY1/</id>
+        <link href="http://localhost:4000/iBeNeBRY1/">
         </link>
         <updated>2022-12-07T13:13:38.000Z</updated>
         <summary type="html"><![CDATA[<p>COVID-19 在某種意義上算是終於結束了，像極了一場無疾而終的鬧劇一樣草草的結束。</p>
@@ -117,8 +121,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[由潮州 Tesla 事故想到的]]></title>
-        <id>https://Alodaner.github.io/unQAnQBhG/</id>
-        <link href="https://Alodaner.github.io/unQAnQBhG/">
+        <id>http://localhost:4000/unQAnQBhG/</id>
+        <link href="http://localhost:4000/unQAnQBhG/">
         </link>
         <updated>2022-11-19T08:40:27.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>對於大眾來說一部分事情的真相是根本無法觸探的。</strong></p>
@@ -128,8 +132,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[80 歲時用牙開瓶蓋]]></title>
-        <id>https://Alodaner.github.io/Pz3vFBw7w/</id>
-        <link href="https://Alodaner.github.io/Pz3vFBw7w/">
+        <id>http://localhost:4000/Pz3vFBw7w/</id>
+        <link href="http://localhost:4000/Pz3vFBw7w/">
         </link>
         <updated>2021-10-24T07:43:35.000Z</updated>
         <summary type="html"><![CDATA[<p>一次偶然體會到了牙疼的痛苦。從此才認識到牙齒對於一個人的意義。</p>
